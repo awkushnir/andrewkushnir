@@ -58,6 +58,7 @@
             <span class="year">2026</span>
             <h3>The Division</h3>
             <p class="credits">by Andrew Kushnir. Workshop production at TMU School of Performance (2022); full production 2026 with Project: Humanity, Pyretic Productions and Crow's Theatre.</p>
+            <p class="photo-credit">Photography: Dahlia Katz</p>
           </div>
         </article>
 
@@ -73,6 +74,7 @@
             <h3>Casey and Diana</h3>
             <p class="credits">by Nick Green. Originally commissioned and produced by the Stratford Festival of Canada (2023), with subsequent productions at Soulpepper (2024), the Royal Manitoba Theatre Centre and Theatre Aquarius (2025), and the Arts Club Theatre Company (2025).</p>
             <p class="award">2024 Public History Award, Heritage Toronto (co-recipient with Nick Green)</p>
+            <p class="photo-credit">Photography: Cylla von Tiedemann, Dahlia Katz</p>
           </div>
         </article>
 
@@ -88,6 +90,7 @@
             <h3>Bad Roads</h3>
             <p class="credits">by Nataliya Vorozhbit. Produced by Crow's Theatre.</p>
             <p class="award">2024 Dora Award for Outstanding Direction (General Division) · Toronto Theatre Critics' Award for Best Director of a Play · 5 Dora nominations (Production, Direction, Ensemble, Sound, Lighting)</p>
+            <p class="photo-credit">Photography: Dahlia Katz</p>
           </div>
         </article>
 
@@ -102,6 +105,7 @@
             <span class="year">2024</span>
             <h3>The Trials</h3>
             <p class="credits">by Dawn King. Mainstage, University of Toronto Centre for Drama, Theatre and Performance Studies.</p>
+            <p class="photo-credit">Photography: Jae Yang</p>
           </div>
         </article>
 
@@ -125,6 +129,7 @@
             <span class="year">2021</span>
             <h3>Bonus Points If You Have Air Conditioning</h3>
             <p class="credits">by Jena McLean. The National Theatre School of Canada.</p>
+            <p class="photo-credit">Photography: Maxime Côté</p>
           </div>
         </article>
 
@@ -151,6 +156,7 @@
             <span class="year">2019</span>
             <h3>Towards Youth: a play on radical hope</h3>
             <p class="credits">co-directed with Chris Abraham. Project: Humanity and Crow's Theatre.</p>
+            <p class="photo-credit">Photography: Aleksandar Antonijevic</p>
           </div>
         </article>
 
@@ -179,6 +185,7 @@
             <span class="year">2017 &amp; 2018</span>
             <h3>Freedom Singer</h3>
             <p class="credits">co-created with Khari Wendell McClelland. Project: Humanity in association with Urban Ink and Crow's Theatre.</p>
+            <p class="photo-credit">Photography: Dahlia Katz</p>
           </div>
         </article>
 
@@ -242,7 +249,7 @@
       function show() {
         var it = current[idx];
         img.src = it.large; img.alt = it.alt;
-        cap.textContent = title + '  ·  ' + (idx + 1) + ' / ' + current.length;
+        cap.textContent = it.alt + '  ·  ' + (idx + 1) + ' / ' + current.length;
       }
       function open(items, i, t) {
         current = items; idx = i; title = t;

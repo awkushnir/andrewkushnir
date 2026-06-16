@@ -95,6 +95,8 @@ section.block + section.block { padding-top: 0; }
 .work-item .credits { color: var(--muted); font-size: 0.96rem; margin-top: 8px; }
 .work-item .award { color: var(--text); font-weight: 600; font-size: 0.92rem; margin-top: 10px; }
 .work-item .excerpt { color: var(--muted); margin-top: 12px; font-size: 1rem; }
+.photo-credit { font-size: 0.72rem; color: var(--faint); letter-spacing: 0.02em; margin-top: 10px; }
+.prose .photo-credit { margin-top: 0; margin-bottom: 24px; }
 .work-item:nth-child(even) .thumb,
 .work-item:nth-child(even) .gallery { order: 2; }
 
