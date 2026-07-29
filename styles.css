@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #f7f4ee;
+  --bg: #f9f7f3;
   --text: #0e0e10;
   --muted: #76767c;
   --faint: #a0a0a6;
@@ -33,7 +33,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .narrow { max-width: var(--measure); }
 
 /* Header / nav */
-.site-header { position: sticky; top: 0; background: rgba(247,244,238,0.9); backdrop-filter: saturate(180%) blur(12px); z-index: 30; border-bottom: 1px solid var(--line); }
+.site-header { position: sticky; top: 0; background: rgba(249,247,243,0.9); backdrop-filter: saturate(180%) blur(12px); z-index: 30; border-bottom: 1px solid var(--line); }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 24px; }
 .brand { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
